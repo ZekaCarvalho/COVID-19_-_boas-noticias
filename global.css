@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 14px Roboto, sans-serif;
+  background: #f0f0f5;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.logo{
+  background-color: #c1111e;
+}
+
+.logo img{
+  width: 55vh;
+}
+
+.img_salveVidas{
+background-color: #ECBFA8;
+height: 41vh;
+}
+
+.img_salveVidas img{
+  height: 40vh; 
+}
+
+/* Barra de navegação */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  transition: 0.8s;
+}
+
+/* Muda a cor quando o mouse tá em cima */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.conteudo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Rodapé */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsividade, muda para visalização em coluna quando a tela for menor que 700px */
+@media screen and (max-width: 700px) {
+  .conteudo, .navbar, .news-video {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+iframe {
+  min-height: 800px;
+}
+
+p {
+  margin: 0;
+}
+
+.conteudo {
+  justify-content:center;
+}
+
+.contato div a {
+
+  margin: 10% 0 10% 0;
+  display: flex;
+  
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: #272829;
+  font-size: 1.1rem;
+}
+
+.contato a:hover{
+  opacity: 0.8;
+}
+
+.contato div a img {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
+

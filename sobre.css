@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* Cria duas colunas desiguais .col-esq e .col-dir */
+.col-esq {
+  flex: 21.5%;
+  background-color: #040B14;
+  
+}
+
+.col-dir {
+  margin-top: 60px;
+  flex: 78.5%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+/* ### Itens da coluna da esquerda ### */
+
+.col-esq h5{
+  margin-bottom: 80px;
+}
+
+#foto-perfil {
+  margin: 15px auto;
+  margin-top: 50px;
+  display: block;
+  width: 140px;
+  border: 8px solid #2c2f3f;
+  border-radius: 50%;
+}
+
+h1{
+  margin-top: 5%;
+}
+
+h2{
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+
+}
+
+.redes_sociais{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 23%;
+  min-width: 169px;
+}
+
+.redes_sociais div{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.redes_sociais a{
+  height: 38px;
+  
+}
+.redes_sociais a img{
+  width: 38px;
+  transition: opacity 0.2s;
+}
+
+.redes_sociais a img:hover{
+  opacity: 0.8;
+}
+
+h4{
+  margin-top: 0;
+  text-align: center;
+  font-weight: normal;
+  color: #f1f1f1;
+  font-size: 0.9rem;
+}
+
+h5{
+  color: white;
+  font-style: italic;
+  font-weight: normal;
+  margin-left: 10px;
+}
+.skills{
+  
+  margin-top: 15vh;
+  margin-left: 4vh;
+  margin-right: 4vh;
+}
+
+.skills h5{
+  font-style:normal;
+}
+
+
+/* ### Itens da coluna da direita ### */
+
+p{
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.img_album{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.img_album img{
+  width: 60%;
+}
+
