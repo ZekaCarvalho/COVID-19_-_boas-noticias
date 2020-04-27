@@ -37,7 +37,7 @@ a {
   border-radius: .25rem;
 }
 
-.card h4{
+.card h4 {
   font-weight: 400;
   margin-top: 0;
   color: black;
@@ -71,12 +71,13 @@ a {
   padding: 0 15px;
 }
 
-.news-audio{
+.news-audio {
   display: flex;
   justify-content: center;
   margin-bottom: 1.8%;
 }
-.news-audio audio{
+
+.news-audio audio {
   width: 100%;
 }
 
@@ -92,4 +93,18 @@ a {
   font-size: .8rem;
   text-align: right;
   background-color: transparent!important;
+}
+
+.proximaPag {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.proximaPag a {
+  transition: opacity 0.2s;
+}
+
+.proximaPag a:hover {
+  opacity: 0.8;
 }
